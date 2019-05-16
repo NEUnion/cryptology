@@ -1,0 +1,21 @@
+char skey[32];
+    char inbuff[32],oubuff[32];
+	memcpy(skey,(LPCTSTR)m_key,8);
+	memcpy(inbuff,(LPCTSTR)m_plain,8);
+
+CString strTmp,str;
+
+DES jm	;
+jm.Des_Go(oubuff, inbuff, sizeof(inbuff), skey,sizeof(skey), ENCRYPT);
+
+//for (int c = 0; c<32; ++c)
+ //       {
+		 // strdemo=strdemo+State[c][r]+" ";
+//		  strTmp.Format("%02x",oubuff[c]);
+//		str+=strTmp+" ";
+//		}
+//MessageBox(str);	
+for(int i=0;i<32;i++)
+  str+=oubuff[i];     
+
+m_enc=str;

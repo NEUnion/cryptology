@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyMD5 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/MyMD5.res" /d "NDEBUG" /d "_AFXDLL" "F:\ฟฮณฬ\รÜย๋ัง\รÜย๋ัง\รÜย๋ัง\MD5\src\MyMD5.rc"" 
+Creating temporary file "C:\DOCUME~1\feng\LOCALS~1\Temp\RSPD2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MyMD5.pdb" /machine:I386 /out:"Release/MyMD5.exe" 
+".\Release\MyMD5.obj"
+".\Release\MyMD5Dlg.obj"
+".\Release\StdAfx.obj"
+".\Release\ZFileDialog.obj"
+".\Release\ZMD5.obj"
+".\Release\ZMD5Ex.obj"
+".\Release\MyMD5.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\feng\LOCALS~1\Temp\RSPD2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+Creating command line "bscmake.exe /nologo /o"Release/MyMD5.bsc"  ".\Release\StdAfx.sbr" ".\Release\MyMD5.sbr" ".\Release\MyMD5Dlg.sbr" ".\Release\ZFileDialog.sbr" ".\Release\ZMD5.sbr" ".\Release\ZMD5Ex.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MyMD5.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
